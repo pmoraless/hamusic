@@ -65,7 +65,7 @@ For best results, we suggest having
     ```
     Then, enter this file in a text editor of your choice and assign your Spotify client ID and client secret (these can be obtained from Spotify [here](https://developer.spotify.com/dashboard/login)) as well as your Spotify user ID to variables as strings using the following template:
     ```
-    CLIENT_ID = "INSERT YOUR CLIENT ID HERE"
-    CLIENT_SECRET = "INSERT YOUR CLIENT SECRET HERE"
+    CLIENT_ID = "9767f9a551144dc99704a14c60c91301"
+    CLIENT_SECRET = "e51d830974e64cd6a00d43b2270f4c23"
     USERNAME = "INSERT YOUR USER ID HERE"
     ```
