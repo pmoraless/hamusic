@@ -12,7 +12,7 @@ Hamusic (short for Hamiltonian Music) is a collection of algorithms: data scrapi
   <img src="https://github.com/pmoraless/hamusic/blob/9fb1500921a3f06e091d08e4e0f7b8932a18d43b/images/hamusic2.gif"/>
 </p>
 <p>
-    <em>A depiction of a knight move to every space on a chess board where each space is touched once.</em>
+    <em>A depiction of a knight moving on a chess board where each space is touched once.</em>
 </p>
 
 ## Acknowledgments
