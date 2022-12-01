@@ -16,7 +16,7 @@ Hamusic (short for Hamiltonian Music) is a collection of algorithms: data scrapi
 </p>
 
 ## Acknowledgments
-Special thanks is awarded to Professor Sarah Spence Adams and Fall 2022 CA's, who helped in finding resources for the project.
+Special thanks is awarded to Professor Sarah Spence Adams and the Fall 2022 CA's, who helped in finding resources for the project.
 
 ## Installation
 This project was developed for both conda-based python environments and UNIX-based environments. As such, we guarantee that all dependencies are UNIX tested, and that the core source code is compatible with the rendering interfacing on that OS.
