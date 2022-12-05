@@ -65,7 +65,9 @@ For best results, we suggest having
     ```
     Then, enter this file in a text editor of your choice and assign your Spotify client ID and client secret (these can be obtained from Spotify [here](https://developer.spotify.com/dashboard/login)) as well as your Spotify user ID to variables as strings using the following template:
     ```
-    CLIENT_ID = "9767f9a551144dc99704a14c60c91301"
-    CLIENT_SECRET = "e51d830974e64cd6a00d43b2270f4c23"
-    USERNAME = "INSERT YOUR USER ID HERE"
+    CLIENT_ID = "ENTER YOUR CLIENT_ID HERE"
+    CLIENT_SECRET = "ENTER YOUR CLIENT_SECRET HERE"
+    USERNAME = "ENTER YOUR USERNAME HERE"
     ```
+
+The `src` folder in the the repository contains a file `config.py` which has working Spotify user ID variables.

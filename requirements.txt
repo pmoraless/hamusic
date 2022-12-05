@@ -1,0 +1,12 @@
+cycler==0.10
+matplotlib==3.4.3
+matplotlib-inline==0.1.2
+networkx==2.8.8
+packaging==20.0
+pandas==1.5.2
+pip==22.3.1
+pyparsing==2.2.1
+python-dateutil==2.8.2
+pytz==2020.1
+scipy==1.9.3
+spotipy==2.19.0
