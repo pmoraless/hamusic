@@ -71,3 +71,32 @@ For best results, we suggest having
     ```
 
 The `src` folder in the the repository contains a file `config.py` which has working Spotify user ID variables.
+
+3. Once a Python kernel has been initiated, run the data miner, from the root directory:
+    ```
+    %run src/discz_scrape.py
+    %run src/scrape1.py
+    ```
+
+4. From here you can utilize data visualization fuctions that will be defined in ```analysis_discz.ipynb```. If an NameError occurs, please re-run the data miner.
+
+## External Dependencies
+The following are required to run this program. Note that requirements may already be satisfied and additional platform-specific dependencies may be required depending on your target environment.
+
+### General Use
+- [cycler](https://pypi.org/project/cycler/)
+- [packaging](https://pypi.org/project/packaging/)
+- [pandas](https://pypi.org/project/pandas/)
+- [pip](https://pypi.org/project/pip/)
+- [pyparsing](https://pypi.org/project/pyparsing/)
+- [python-dateutil](https://pypi.org/project/python-util/)
+- [pytz](https://pypi.org/project/pytz/)
+- [scipy](https://pypi.org/project/scipy/)
+
+### Data Visualization
+- [matplotlib](https://pypi.org/project/matplotlib/)
+- [matplotlib-inline](https://pypi.org/project/matplotlib-inline/)
+- [networkx](https://pypi.org/project/networkx/)
+
+### Data Source
+- [spotipy](https://pypi.org/project/spotipy/)
