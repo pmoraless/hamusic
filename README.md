@@ -6,7 +6,7 @@
 ### A project designed to analyze different types of music associated with Hamiltonian cycles and paths, and to find common trends among them.
 
 ## About the Project
-Hamusic (short for Hamiltonian Music) is a collection of algorithms: data scraping, sorting, algorithm C, and algorithm D, as well as assorted utilities (data processing tools, data visualization tools, etc). Hamusic was created by, and is the intellectual property of, Annie Chu, Rajiv Perera, Anusha Karandikar and Priscila Morales. Its ultimate purpose is to analyze a set of songs to find Hamiltonian patterns and update an algorithm to visualize songs that connect well perceptually  through data analytics and computing.
+Hamusic (short for Hamiltonian Music) is a collection of algorithms: data scraping, backtracking and depth-first search, as well as assorted utilities (data processing tools, data visualization tools, etc). We use two methods to process data: pre-processing and post-processing. Hamusic was created by, and is the intellectual property of, Annie Chu, Rajiv Perera, Anusha Karandikar and Priscila Morales. Its ultimate purpose is to analyze a set of songs to find Hamiltonian patterns and update an algorithm to visualize songs that connect well perceptually  through data analytics and computing.
 
 <p align="center">
   <img src="https://github.com/pmoraless/hamusic/blob/9fb1500921a3f06e091d08e4e0f7b8932a18d43b/images/hamusic2.gif"/>
@@ -14,6 +14,8 @@ Hamusic (short for Hamiltonian Music) is a collection of algorithms: data scrapi
 <p>
     <em>A depiction of a knight moving on a chess board where each space is touched once.</em>
 </p>
+
+Our main goal is to find the optimal order of a song playlist such that the songs flow well together.
 
 ## Acknowledgments
 Special thanks is awarded to Professor Sarah Spence Adams and the Fall 2022 CA's, who helped in finding resources for the project.
