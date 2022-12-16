@@ -3,10 +3,12 @@
 </p>
 <h1 align="center">Hamiltonian Music</h1>
 
-### A project designed to analyze different types of music associated with Hamiltonian cycles and paths, and to find common trends among them.
+### A project designed to analyze different types of music associated with Hamiltonian paths, and to find common trends among them.
 
 ## About the Project
-Hamusic (short for Hamiltonian Music) is a collection of algorithms: data scraping, backtracking and depth-first search, as well as assorted utilities (data processing tools, data visualization tools, etc). We use two methods to process data: pre-processing and post-processing. Hamusic was created by, and is the intellectual property of, Annie Chu, Rajiv Perera, Anusha Karandikar and Priscila Morales. Its ultimate purpose is to analyze a set of songs to find Hamiltonian patterns and update an algorithm to visualize songs that connect well perceptually  through data analytics and computing.
+Hamusic (short for Hamiltonian Music) is a collection of algorithms: data scraping, backtracking and depth-first search, as well as assorted utilities (data processing tools, data visualization tools, etc). We use two methods to process data: pre-processing and post-processing. In our pre-processing method we 1) analyze musical attributes of paired songs to get filtered edges 2) create a sparse graph with the filtered edges 3) find remaining Hamiltonian paths 4) filter and find the path with the maximum weight possible. This implementation can be found under ```preprocessing.ipynb```. On the other hand, in our post-processing method we 1) create a fully connected graph 2) find all Hamiltonian paths 3) process paths and filter paths. Our first method (pre-processing) has a worst-case time complexity of ```O(nlogn)``` and our second method (post-processing) has a worst-case time complexity of ```O(N!)```.
+
+Hamusic was created by, and is the intellectual property of, Annie Chu, Rajiv Perera, Anusha Karandikar and Priscila Morales. Its ultimate purpose is to analyze a set of songs to find Hamiltonian patterns and update an algorithm to visualize songs that connect well perceptually  through data analytics and computing.
 
 <p align="center">
   <img src="https://github.com/pmoraless/hamusic/blob/9fb1500921a3f06e091d08e4e0f7b8932a18d43b/images/hamusic2.gif"/>
